@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Allow ffmpeg binaries
+!SmartConvert.API/ffmpeg/bin/
+!SmartConvert.API/ffmpeg/bin/**
